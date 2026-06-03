@@ -36,7 +36,8 @@ def sync(commit_message=None):
         commit_message = f"Auto-update data — {datetime.now().strftime('%Y-%m-%d %H:%M IST')}"
 
     try:
-        g    = Github(GITHUB_PAT)
+        from github import Auth
+        g    = Github(auth=Auth.Token(GITHUB_PAT))
         repo = g.get_repo(GITHUB_REPO)
 
         for relative_path in FILES_TO_SYNC:
