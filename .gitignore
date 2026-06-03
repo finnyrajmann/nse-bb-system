@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.myenv/
+myenv/
+*.egg-info/
+
+# Environment & credentials
+.env
+*.env
+config.py
+secrets.py
+
+# Virtual environment
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Daily output files (auto-generated, not needed in repo)
+bb_buy_today.csv
+bb_buy_today.txt
+buy_today.csv
+buy_today.txt
+
+# Logs
+*.log

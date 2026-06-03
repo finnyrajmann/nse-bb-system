@@ -1,0 +1,39 @@
+Symbol,Industry,IsBanking,Price,TF Score,Cross Date,1hr,3hr,1day,1wk,1mo
+ADANIPORTS,Services,False,1633.7,4/5,2026-04-27,✅,✅,✅,❌,✅
+AMBER,Consumer Durables,False,7975.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+APOLLOHOSP,Healthcare,False,7766.5,4/5,2026-04-27,✅,✅,✅,❌,✅
+AUROPHARMA,Healthcare,False,1419.2,4/5,2026-04-27,✅,✅,✅,❌,✅
+BAJAJ-AUTO,Automobile and Auto Components,False,9655.5,4/5,2026-04-27,✅,✅,✅,❌,✅
+BHARATFORG,Automobile and Auto Components,False,1874.2,4/5,2026-04-27,✅,✅,✅,❌,✅
+BOSCHLTD,Automobile and Auto Components,False,37225.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+BSE,Financial Services,True,3503.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+CGPOWER,Capital Goods,False,826.15,4/5,2026-04-27,✅,✅,✅,❌,✅
+DRREDDY,Healthcare,False,1328.7,4/5,2026-04-27,✅,✅,✅,❌,✅
+GLENMARK,Healthcare,False,2309.8,4/5,2026-04-27,✅,✅,✅,❌,✅
+HINDALCO,Metals & Mining,False,1060.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+HINDZINC,Metals & Mining,False,615.2,4/5,2026-04-27,✅,✅,✅,❌,✅
+KEI,Capital Goods,False,4967.6,4/5,2026-04-27,✅,✅,✅,❌,✅
+LT,Construction,False,4069.2,4/5,2026-04-27,✅,✅,✅,❌,✅
+LTF,Financial Services,True,292.2,4/5,2026-04-27,✅,✅,✅,❌,✅
+LUPIN,Healthcare,False,2330.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+MARICO,Fast Moving Consumer Goods,False,787.95,4/5,2026-04-27,✅,✅,✅,❌,✅
+MCX,Financial Services,True,2795.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+NATIONALUM,Metals & Mining,False,442.05,4/5,2026-04-27,✅,✅,✅,❌,✅
+NESTLEIND,Fast Moving Consumer Goods,False,1421.1,4/5,2026-04-27,✅,✅,✅,❌,✅
+NMDC,Metals & Mining,False,90.76,4/5,2026-04-27,✅,✅,✅,❌,✅
+NTPC,Power,False,409.15,4/5,2026-04-27,✅,✅,✅,❌,✅
+OBEROIRLTY,Realty,False,1719.3,4/5,2026-04-27,✅,✅,✅,❌,✅
+OFSS,Information Technology,False,9441.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+PFC,Financial Services,True,475.55,4/5,2026-04-27,✅,✅,✅,❌,✅
+PNBHOUSING,Financial Services,True,1044.5,4/5,2026-04-27,✅,✅,✅,❌,✅
+POLYCAB,Capital Goods,False,8070.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+POWERGRID,Power,False,319.45,4/5,2026-04-27,✅,✅,✅,❌,✅
+RECLTD,Financial Services,True,379.15,4/5,2026-04-27,✅,✅,✅,❌,✅
+SBIN,Financial Services,True,1106.25,4/5,2026-04-27,✅,✅,✅,❌,✅
+SIEMENS,Capital Goods,False,3857.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+SONACOMS,Automobile and Auto Components,False,581.6,4/5,2026-04-27,✅,✅,✅,❌,✅
+TIINDIA,Automobile and Auto Components,False,2979.2,4/5,2026-04-27,✅,✅,✅,❌,✅
+TORNTPHARM,Healthcare,False,4182.8,4/5,2026-04-27,✅,✅,✅,❌,✅
+TORNTPOWER,Power,False,1812.0,4/5,2026-04-27,✅,✅,✅,❌,✅
+SUNPHARMA,Healthcare,False,1760.0,4/5,2026-04-16,✅,✅,✅,❌,✅
+IDEA,Telecommunication,False,9.67,4/5,2026-03-30,✅,✅,✅,❌,✅
