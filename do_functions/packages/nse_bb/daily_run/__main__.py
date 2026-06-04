@@ -36,7 +36,9 @@ SLEEP         = 0.5
 # ─────────────────────────────────────────────
 def fetch_price_data(symbol, period='3mo'):
     """Fetch OHLCV data from Yahoo Finance API."""
-    ticker = f"{symbol.upper().strip()}.NS"
+    ticker = symbol.upper().strip()
+    if not ticker.startswith("^"):
+        ticker = ticker + ".NS"
     url    = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
     
     range_map = {'3mo': '3mo', '1y': '1y'}
