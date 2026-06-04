@@ -1,16 +1,13 @@
 """
 BB Entry Scanner
 =================
-Scans watchlist for BB lower touches.
-Auto-adds new signals to positions_bb.csv as Paper trades.
+Entry signal: Price touches or crosses below lower Bollinger Band
 
-Changes from original:
-    - Accepts regime status — skips if PAUSE
-    - Auto-adds signals to data/positions_bb.csv as Paper
-    - Returns structured result for notify.py
+Regime modes:
+    GO       — Nifty > EMA50 — scan all, EMA200 is a flag only
+    CAUTIOUS — Nifty < EMA50 — scan only stocks above EMA200 (hard gate)
 
-Entry signal : Price <= BB Lower (20, 2)
-Trend filter : Price > EMA200 flagged as uptrend (preferred, not hard gate)
+Run every morning before market opens (9:00-9:15 AM IST)
 """
 
 import yfinance as yf
@@ -125,19 +122,20 @@ def add_position(symbol, ind, positions_df):
 # MAIN
 # ─────────────────────────────────────────────
 def run(regime='GO'):
-    if regime == 'PAUSE':
-        print("\nBB Entry Scanner — SKIPPED (market regime: PAUSE)")
-        return []
-
-    watchlist     = load_watchlist(INPUT_FILE)
-    positions_df  = load_positions(POSITIONS_FILE)
-    open_symbols  = set(positions_df['Symbol'].str.strip().tolist())
-    total         = len(watchlist)
-    results       = []
-    added         = []
+    watchlist    = load_watchlist(INPUT_FILE)
+    positions_df = load_positions(POSITIONS_FILE)
+    open_symbols = set(positions_df['Symbol'].str.strip().tolist())
+    total        = len(watchlist)
+    results      = []
 
     print(f"\nBB Entry Scanner — {datetime.now().strftime('%d %b %Y, %I:%M %p')}")
-    print(f"  Scanning {total} stocks for BB lower touches...\n")
+
+    if regime == 'GO':
+        print(f"  Mode: GO — scanning all stocks, EMA200 is advisory")
+    else:
+        print(f"  Mode: CAUTIOUS — scanning only stocks above EMA200")
+
+    print(f"  Scanning {total} stocks...\n")
 
     start_time = time.time()
 
@@ -152,18 +150,21 @@ def run(regime='GO'):
 
         print(f"  [{i+1:>2}/{total}] ETA: {eta}s | {symbol:<15}", end='\r')
 
+        if symbol in open_symbols:
+            time.sleep(SLEEP_SECONDS)
+            continue
+
         ind = get_indicators(symbol)
         if ind is None:
             time.sleep(SLEEP_SECONDS)
             continue
 
-        if ind['price'] <= ind['bb_lower']:
-            # Skip if already in open positions
-            if symbol in open_symbols:
-                print(f"  {symbol}: Already in positions — skipping")
-                time.sleep(SLEEP_SECONDS)
-                continue
+        # In CAUTIOUS mode — skip stocks below EMA200
+        if regime == 'CAUTIOUS' and not ind['above200']:
+            time.sleep(SLEEP_SECONDS)
+            continue
 
+        if ind['price'] <= ind['bb_lower']:
             result = {
                 'Symbol':    symbol,
                 'Industry':  industry,
@@ -178,11 +179,8 @@ def run(regime='GO'):
                 'Stop':      ind['stop'],
             }
             results.append(result)
-
-            # Auto-add to positions as Paper
             positions_df = add_position(symbol, ind, positions_df)
             open_symbols.add(symbol)
-            added.append(symbol)
 
         time.sleep(SLEEP_SECONDS)
 
@@ -202,7 +200,7 @@ if __name__ == "__main__":
         print(f"  {'SYMBOL':<12} {'PRICE':>8} {'BB LOW':>8} {'EMA200':>8} {'>200':>5}")
         print(f"  {'-'*50}")
         for s in signals:
-            trend = '✅' if s['>EMA200'] else '❌'
+            trend = '✅' if s['>EMA200'] else '⚠'
             print(f"  {s['Symbol']:<12} "
                   f"₹{s['Price']:>8.2f} "
                   f"₹{s['BB Lower']:>8.2f} "

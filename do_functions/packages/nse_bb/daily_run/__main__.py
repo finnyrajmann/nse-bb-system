@@ -183,8 +183,8 @@ def check_regime():
         return {'regime': 'GO', 'nifty_price': price, 'ema50': ema50,
                 'nifty_change': change, 'message': f'Nifty {price} > EMA50 {ema50} — entries allowed'}
     else:
-        return {'regime': 'PAUSE', 'nifty_price': price, 'ema50': ema50,
-                'nifty_change': change, 'message': f'Nifty {price} < EMA50 {ema50} — no new entries'}
+        return {'regime': 'CAUTIOUS', 'nifty_price': price, 'ema50': ema50,
+                'nifty_change': change, 'message': f'Nifty {price} < EMA50 {ema50} — cautious, EMA200 stocks only'}
 
 
 # ─────────────────────────────────────────────
@@ -261,8 +261,6 @@ def run_exit(positions, trade_log):
 # BB ENTRY
 # ─────────────────────────────────────────────
 def run_entry(watchlist, positions, regime):
-    if regime == 'PAUSE':
-        return [], positions
 
     open_symbols = {p['Symbol'].strip() for p in positions}
     new_entries  = []
@@ -274,6 +272,10 @@ def run_entry(watchlist, positions, regime):
 
         ind = get_indicators(symbol, period='1y')
         if ind is None:
+            time.sleep(SLEEP)
+            continue
+        # CAUTIOUS mode — skip stocks below EMA200
+        if regime == 'CAUTIOUS' and not ind.get('above200', True):
             time.sleep(SLEEP)
             continue
 
@@ -313,7 +315,7 @@ def send_email(regime_result, exits, entries, holds):
     repo_name = os.environ.get('GITHUB_REPO')
     today     = datetime.now().strftime('%d %b %Y')
     regime    = regime_result['regime']
-    icon      = '🟢' if regime == 'GO' else '🔴'
+    icon      = '🟢' if regime == 'GO' else '🟡' if regime == 'CAUTIOUS' else '🔴'
     subject   = f"NSE BB Trader — {today} | Regime: {icon} {regime}"
 
     lines = []
@@ -340,8 +342,8 @@ def send_email(regime_result, exits, entries, holds):
             lines.append(f"\n   ▶ {e['Symbol']} ({e['Industry']})")
             lines.append(f"     Price: ₹{e['Price']}  |  Stop: ₹{e['Stop']}  |  {trend}")
             lines.append(f"     BB Lower: ₹{e['BB Lower']}  →  BB Upper: ₹{e['BB Upper']}")
-    elif regime == 'PAUSE':
-        lines.append(f"\n🔔 NEW ENTRIES: None — Market in PAUSE mode")
+    elif regime == 'CAUTIOUS':
+        lines.append(f"\n🔔 NEW ENTRIES: None — Cautious mode, only EMA200 stocks scanned")
     else:
         lines.append(f"\n🔔 NEW ENTRIES: None today")
 

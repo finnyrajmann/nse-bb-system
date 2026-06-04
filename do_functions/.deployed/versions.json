@@ -4,14 +4,14 @@
     "namespace": "fn-91149ee6-84d8-41bb-ad28-4648bf0e0a49",
     "packageVersions": {
       "nse_bb": {
-        "version": "0.0.9",
+        "version": "0.0.13",
         "digest": "7bfe61fa1462b81e2e8d9675558f0af2f6c29f46502f7d7915d7826852dd5c16"
       }
     },
     "actionVersions": {
       "nse_bb/daily_run": {
-        "version": "0.0.8",
-        "digest": "741e331373b57ee36efa228eb06fb81d659147846dc8f9cffd36322d4b3fc1af"
+        "version": "0.0.12",
+        "digest": "5372d82ff9d3c7f0afcc09b92c2b4f291ff7ca9f9fee577d10b3ee281cba1f5e"
       }
     }
   }
