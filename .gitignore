@@ -31,3 +31,4 @@ buy_today.txt
 do_functions/project.yml
 do_functions/.deployed
 do_functions/packages/**/__deployer__.zip
+functions/__pycache__/
