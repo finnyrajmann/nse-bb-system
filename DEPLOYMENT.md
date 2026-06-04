@@ -118,10 +118,8 @@ Or use the shell script:
 cd ~/nse-bb-system
 
 # Authenticate doctl (use --access-token flag, not interactive prompt)
-doctl auth init --access-token dop_v1_8fc91552c52ae4583f8aae22730fdec404422ee8a146527aa7e90d6de6457b41
 
 # Connect to the namespace
-doctl serverless connect fn-91149ee6-84d8-41bb-ad28-4648bf0e0a49
 
 # Deploy
 doctl serverless deploy do_functions --remote-build
