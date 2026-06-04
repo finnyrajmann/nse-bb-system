@@ -44,11 +44,11 @@ These files exist only on the Vostro. You must recreate them on any new machine.
 Stores all credentials for local runs:
 ```
 GMAIL_SENDER=xxxx86@gmail.com
-GMAIL_APP_PASSWORD=emzhacmvziIvoatf
+GMAIL_APP_PASSWORD=xxxx
 GMAIL_RECIPIENT=xxxxxxxx86@gmail.com
-GITHUB_PAT=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
+GITHUB_PAT=xxx_xxxxxxx
 GITHUB_REPO=xxxxxxxxxxxx/nse-bb-system
-DO_TOKEN=dop_v1_8fc91552c52ae4583f8aae22730fdec404422ee8a146527aa7e90d6de6457b41
+DO_TOKEN=xxx_xx_xxxxxxxx
 ```
 
 ### `~/nse-bb-system/do_functions/project.yml`
@@ -64,9 +64,9 @@ packages:
           memory: 512
         environment:
           GMAIL_SENDER: "xxxxxxx86@gmail.com"
-          GMAIL_APP_PASSWORD: "emzhacmvziIvoatf"
+          GMAIL_APP_PASSWORD: "xxxx"
           GMAIL_RECIPIENT: "xxxxx86@gmail.com"
-          GITHUB_PAT: "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"
+          GITHUB_PAT: "xxx_xxxxxxxxx"
           GITHUB_REPO: "xxxxxxxxxxx/nse-bb-system"
 ```
 
@@ -88,7 +88,7 @@ Both files are in `.gitignore` and will never be committed to GitHub.
 ## DO Setup Details
 
 - **Namespace**: `python-xxxx-ns`
-- **Namespace ID**: `fn-91149ee6-84d8-41bb-ad28-4648bf0e0a49`
+- **Namespace ID**: `xx-xxxxxxxxxxxxxxxx`
 - **API Host**: `https://faas-blr1-8177d592.doserverless.co`
 - **Region**: `blr1` (Bangalore — IST-friendly)
 - **Function**: `nse_bb/daily_run`
