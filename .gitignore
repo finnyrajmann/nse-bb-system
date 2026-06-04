@@ -29,3 +29,5 @@ buy_today.txt
 # Logs
 *.log
 do_functions/project.yml
+do_functions/.deployed
+do_functions/packages/**/__deployer__.zip
