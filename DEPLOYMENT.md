@@ -46,9 +46,9 @@ Stores all credentials for local runs:
 GMAIL_SENDER=xxxx86@gmail.com
 GMAIL_APP_PASSWORD=xxxx
 GMAIL_RECIPIENT=xxxxxxxx86@gmail.com
-GITHUB_PAT=xxx_xxxxxxx
+GITHUB_PAT=xxxxxxxxxx
 GITHUB_REPO=xxxxxxxxxxxx/nse-bb-system
-DO_TOKEN=xxx_xx_xxxxxxxx
+DO_TOKEN=xxxxxxxxxxxxx
 ```
 
 ### `~/nse-bb-system/do_functions/project.yml`
@@ -66,7 +66,7 @@ packages:
           GMAIL_SENDER: "xxxxxxx86@gmail.com"
           GMAIL_APP_PASSWORD: "xxxx"
           GMAIL_RECIPIENT: "xxxxx86@gmail.com"
-          GITHUB_PAT: "xxx_xxxxxxxxx"
+          GITHUB_PAT: "xxxxxxxxxxxx"
           GITHUB_REPO: "xxxxxxxxxxx/nse-bb-system"
 ```
 
