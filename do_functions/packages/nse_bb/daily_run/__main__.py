@@ -173,24 +173,44 @@ def check_regime():
     if not closes or len(closes) < 52:
         return {'regime': 'PAUSE', 'nifty_price': None, 'ema50': None,
                 'nifty_change': None, 'message': 'Could not fetch Nifty — defaulting to PAUSE'}
-    
+
     price  = round(closes[-1], 2)
     prev   = round(closes[-2], 2)
     change = round((price - prev) / prev * 100, 2)
-    ema50  = calc_ema(closes, 50)
-    
-    if price > ema50:
-        return {'regime': 'GO', 'nifty_price': price, 'ema50': ema50,
-                'nifty_change': change, 'message': f'Nifty {price} > EMA50 {ema50} — entries allowed'}
+
+    # Calculate EMA50 today and 20 days ago
+    ema50_today = calc_ema(closes, 50)
+    ema50_20d   = calc_ema(closes[:-20], 50)
+
+    # Slope and threshold
+    slope     = round(ema50_today - ema50_20d, 2)
+    threshold = round(ema50_today * 0.005, 2)
+
+    # Trend decision
+    if slope > threshold and price > ema50_today:
+        regime  = 'GO'
+        message = f'Nifty {price} > EMA50 {ema50_today} | Slope +{slope} — uptrend, entries allowed'
+    elif slope < -threshold and price < ema50_today:
+        regime  = 'DEFENSIVE'
+        message = f'Nifty {price} < EMA50 {ema50_today} | Slope {slope} — downtrend, protecting positions'
     else:
-        return {'regime': 'CAUTIOUS', 'nifty_price': price, 'ema50': ema50,
-                'nifty_change': change, 'message': f'Nifty {price} < EMA50 {ema50} — cautious, EMA200 stocks only'}
+        regime  = 'PAUSE'
+        message = f'Nifty {price} ~ EMA50 {ema50_today} | Slope {slope} — sideways, no new entries'
+
+    return {
+        'regime':       regime,
+        'nifty_price':  price,
+        'ema50':        ema50_today,
+        'slope':        slope,
+        'nifty_change': change,
+        'message':      message,
+    }
 
 
 # ─────────────────────────────────────────────
 # BB EXIT
 # ─────────────────────────────────────────────
-def run_exit(positions, trade_log):
+def run_exit(positions, trade_log, regime):
     exits        = []
     holds        = []
     new_positions = []
@@ -215,12 +235,17 @@ def run_exit(positions, trade_log):
         exit_type   = None
         exit_reason = None
 
+        # Normal exit conditions
         if ind['price'] >= ind['bb_upper']:
             exit_type   = 'PROFIT'
             exit_reason = f"Price at BB Upper ({ind['bb_upper']})"
         elif ind['price'] <= stop_price:
             exit_type   = 'STOP'
             exit_reason = f"Stop loss hit ({stop_price})"
+        # DEFENSIVE regime — protect gains
+        elif regime == 'DEFENSIVE' and pnl_pct >= 3.0:
+            exit_type   = 'PROFIT'
+            exit_reason = f"Regime DEFENSIVE — protecting gains ({pnl_pct:+.2f}%)"
 
         result = {
             'Symbol': symbol, 'TrackType': track_type,
@@ -261,6 +286,8 @@ def run_exit(positions, trade_log):
 # BB ENTRY
 # ─────────────────────────────────────────────
 def run_entry(watchlist, positions, regime):
+    if regime != 'GO':
+        return [], positions
 
     open_symbols = {p['Symbol'].strip() for p in positions}
     new_entries  = []
@@ -272,10 +299,6 @@ def run_entry(watchlist, positions, regime):
 
         ind = get_indicators(symbol, period='1y')
         if ind is None:
-            time.sleep(SLEEP)
-            continue
-        # CAUTIOUS mode — skip stocks below EMA200
-        if regime == 'CAUTIOUS' and not ind.get('above200', True):
             time.sleep(SLEEP)
             continue
 
@@ -315,14 +338,14 @@ def send_email(regime_result, exits, entries, holds):
     repo_name = os.environ.get('GITHUB_REPO')
     today     = datetime.now().strftime('%d %b %Y')
     regime    = regime_result['regime']
-    icon      = '🟢' if regime == 'GO' else '🟡' if regime == 'CAUTIOUS' else '🔴'
+    icon = '🟢' if regime == 'GO' else '🟡' if regime == 'PAUSE' else '🔴'
     subject   = f"NSE BB Trader — {today} | Regime: {icon} {regime}"
 
     lines = []
     lines.append(f"NSE BB SWING TRADER — {today}")
     lines.append("=" * 50)
     lines.append(f"\n📊 MARKET REGIME: {icon} {regime}")
-    lines.append(f"   Nifty: {regime_result['nifty_price']} ({regime_result['nifty_change']}%)  |  EMA50: {regime_result['ema50']}")
+    lines.append(f"   Nifty: {regime_result['nifty_price']} ({regime_result['nifty_change']}%)  |  EMA50: {regime_result['ema50']}  |  Slope: {regime_result['slope']}")
     lines.append(f"   {regime_result['message']}")
 
     lines.append(f"\n{'─'*50}")
@@ -405,7 +428,7 @@ def main(args):
 
         # BB Exit
         print("\n[3/6] BB Exit Monitor...")
-        exits, holds, positions, trade_log = run_exit(positions, trade_log)
+        exits, holds, positions, trade_log = run_exit(positions, trade_log, regime_result['regime'])
         print(f"      {len(exits)} exit(s) | {len(holds)} holding")
 
         # BB Entry
