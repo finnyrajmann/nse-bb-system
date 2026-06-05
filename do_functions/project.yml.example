@@ -1,0 +1,14 @@
+packages:
+  - name: nse_bb
+    functions:
+      - name: daily_run
+        runtime: python:3.11
+        limits:
+          timeout: 300000
+          memory: 512
+        environment:
+          GMAIL_SENDER: "your_email@gmail.com"
+          GMAIL_APP_PASSWORD: "your_app_password"
+          GMAIL_RECIPIENT: "your_email@gmail.com"
+          GITHUB_PAT: "your_github_pat"
+          GITHUB_REPO: "username/repo-name"
