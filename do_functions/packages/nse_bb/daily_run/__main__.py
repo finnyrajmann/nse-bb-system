@@ -169,8 +169,8 @@ def to_csv(rows, fieldnames):
 # REGIME CHECK
 # ─────────────────────────────────────────────
 def check_regime():
-    closes = fetch_price_data('^NSEI', '3mo')
-    if not closes or len(closes) < 52:
+    closes = fetch_price_data('^NSEI', '6mo')
+    if not closes or len(closes) < 72:
         return {'regime': 'PAUSE', 'nifty_price': None, 'ema50': None,
                 'nifty_change': None, 'message': 'Could not fetch Nifty — defaulting to PAUSE'}
 
@@ -181,6 +181,16 @@ def check_regime():
     # Calculate EMA50 today and 20 days ago
     ema50_today = calc_ema(closes, 50)
     ema50_20d   = calc_ema(closes[:-20], 50)
+
+    # Guard against None
+    if ema50_today is None or ema50_20d is None:
+        return {'regime': 'PAUSE', 'nifty_price': price, 'ema50': None,
+                'slope': None, 'nifty_change': change,
+                'message': 'Could not calculate EMA50 — defaulting to PAUSE'}
+
+    # Slope and threshold
+    slope     = round(ema50_today - ema50_20d, 2)
+    threshold = round(ema50_today * 0.005, 2)
 
     # Slope and threshold
     slope     = round(ema50_today - ema50_20d, 2)
