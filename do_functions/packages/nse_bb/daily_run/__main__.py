@@ -172,7 +172,8 @@ def check_regime():
     closes = fetch_price_data('^NSEI', '6mo')
     if not closes or len(closes) < 72:
         return {'regime': 'PAUSE', 'nifty_price': None, 'ema50': None,
-                'nifty_change': None, 'message': 'Could not fetch Nifty — defaulting to PAUSE'}
+                'slope': None, 'nifty_change': None,
+                'message': 'Could not fetch Nifty — defaulting to PAUSE'}
 
     price  = round(closes[-1], 2)
     prev   = round(closes[-2], 2)
@@ -187,10 +188,6 @@ def check_regime():
         return {'regime': 'PAUSE', 'nifty_price': price, 'ema50': None,
                 'slope': None, 'nifty_change': change,
                 'message': 'Could not calculate EMA50 — defaulting to PAUSE'}
-
-    # Slope and threshold
-    slope     = round(ema50_today - ema50_20d, 2)
-    threshold = round(ema50_today * 0.005, 2)
 
     # Slope and threshold
     slope     = round(ema50_today - ema50_20d, 2)
@@ -355,7 +352,8 @@ def send_email(regime_result, exits, entries, holds):
     lines.append(f"NSE BB SWING TRADER — {today}")
     lines.append("=" * 50)
     lines.append(f"\n📊 MARKET REGIME: {icon} {regime}")
-    lines.append(f"   Nifty: {regime_result['nifty_price']} ({regime_result['nifty_change']}%)  |  EMA50: {regime_result['ema50']}  |  Slope: {regime_result['slope']}")
+    slope_str = f"{regime_result['slope']:+.2f}" if regime_result['slope'] is not None else 'N/A'
+    lines.append(f"   Nifty: {regime_result['nifty_price']} ({regime_result['nifty_change']}%)  |  EMA50: {regime_result['ema50']}  |  Slope: {slope_str}")
     lines.append(f"   {regime_result['message']}")
 
     lines.append(f"\n{'─'*50}")
@@ -375,8 +373,10 @@ def send_email(regime_result, exits, entries, holds):
             lines.append(f"\n   ▶ {e['Symbol']} ({e['Industry']})")
             lines.append(f"     Price: ₹{e['Price']}  |  Stop: ₹{e['Stop']}  |  {trend}")
             lines.append(f"     BB Lower: ₹{e['BB Lower']}  →  BB Upper: ₹{e['BB Upper']}")
-    elif regime == 'CAUTIOUS':
-        lines.append(f"\n🔔 NEW ENTRIES: None — Cautious mode, only EMA200 stocks scanned")
+    elif regime == 'PAUSE':
+        lines.append(f"\n🔔 NEW ENTRIES: None — Market sideways or defensive, entries paused")
+    elif regime == 'DEFENSIVE':
+        lines.append(f"\n🔔 NEW ENTRIES: None — Market in downtrend, protecting positions only")
     else:
         lines.append(f"\n🔔 NEW ENTRIES: None today")
 
