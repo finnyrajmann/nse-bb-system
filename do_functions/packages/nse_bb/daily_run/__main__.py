@@ -348,60 +348,125 @@ def send_email(regime_result, exits, entries, holds):
     icon = '🟢' if regime == 'GO' else '🟡' if regime == 'PAUSE' else '🔴'
     subject   = f"NSE BB Trader — {today} | Regime: {icon} {regime}"
 
-    lines = []
-    lines.append(f"NSE BB SWING TRADER — {today}")
-    lines.append("=" * 50)
-    lines.append(f"\n📊 MARKET REGIME: {icon} {regime}")
-    slope_str = f"{regime_result['slope']:+.2f}" if regime_result['slope'] is not None else 'N/A'
-    lines.append(f"   Nifty: {regime_result['nifty_price']} ({regime_result['nifty_change']}%)  |  EMA50: {regime_result['ema50']}  |  Slope: {slope_str}")
-    lines.append(f"   {regime_result['message']}")
+    def table_style():
+        return 'border-collapse:collapse;width:100%;font-family:Arial,sans-serif;font-size:14px;'
 
-    lines.append(f"\n{'─'*50}")
+    def th_style():
+        return 'background:#2c3e50;color:#fff;padding:8px 12px;text-align:left;'
+
+    def td_style(align='left'):
+        return f'padding:7px 12px;border-bottom:1px solid #eee;text-align:{align};'
+
+    def section_header(title):
+        return f'<h3 style="color:#2c3e50;margin:24px 0 8px 0;">{title}</h3>'
+
+    regime_color = '#27ae60' if regime == 'GO' else '#f39c12' if regime == 'PAUSE' else '#e74c3c'
+    slope_str = f"{regime_result['slope']:+.2f}" if regime_result['slope'] is not None else 'N/A'
+
+    html = f'''
+    <div style="font-family:Arial,sans-serif;max-width:700px;margin:0 auto;">
+    <h2 style="background:#2c3e50;color:#fff;padding:14px 18px;margin:0;border-radius:4px 4px 0 0;">
+        📈 NSE BB Swing Trader — {today}
+    </h2>
+
+    <!-- REGIME BANNER -->
+    <div style="background:{regime_color};color:#fff;padding:12px 18px;font-size:15px;">
+        📊 Market Regime: {icon} <b>{regime}</b> &nbsp;|&nbsp;
+        Nifty: {regime_result['nifty_price']} ({regime_result['nifty_change']}%) &nbsp;|&nbsp;
+        EMA50: {regime_result['ema50']} &nbsp;|&nbsp; Slope: {slope_str}
+    </div>
+    <div style="background:#f8f9fa;padding:10px 18px;font-size:13px;color:#555;border-bottom:1px solid #ddd;">
+        {regime_result['message']}
+    </div>
+    '''
+
+    # EXITS
+    html += section_header(f'✅ Exits Today ({len(exits)})') if exits else section_header('✅ Exits: None today')
     if exits:
-        lines.append(f"\n✅ EXITS ACTIONED TODAY ({len(exits)})")
+        html += f'<table style="{table_style()}"><thead><tr>'
+        for col in ['', 'Symbol', 'P&L %', 'P&L ₹', 'Days']:
+            html += f'<th style="{th_style()}">{col}</th>'
+        html += '</tr></thead><tbody>'
         for r in exits:
             icon2 = '🟢' if r['PnL'] >= 0 else '🔴'
-            lines.append(f"   {icon2} {r['Symbol']:<12} {r['PnL%']:+.2f}%  ₹{r['PnL']:+.0f}  ({r['DaysHeld']}d)")
-    else:
-        lines.append(f"\n✅ EXITS: None today")
+            html += f'''<tr>
+                <td style="{td_style()}">{icon2}</td>
+                <td style="{td_style()}"><b>{r['Symbol']}</b></td>
+                <td style="{td_style('right')}">{r['PnL%']:+.2f}%</td>
+                <td style="{td_style('right')}">₹{r['PnL']:+.0f}</td>
+                <td style="{td_style('right')}">{r['DaysHeld']}d</td>
+            </tr>'''
+        html += '</tbody></table>'
 
-    lines.append(f"\n{'─'*50}")
+    # ENTRIES
     if entries:
-        lines.append(f"\n🔔 NEW PAPER ENTRIES — CONSIDER FOR REAL TRADE ({len(entries)})")
+        html += section_header(f'🔔 New Paper Entries ({len(entries)})')
+        html += f'<table style="{table_style()}"><thead><tr>'
+        for col in ['Symbol', 'Industry', 'Price ₹', 'Stop ₹', 'BB Lower ₹', 'BB Upper ₹', 'Trend']:
+            html += f'<th style="{th_style()}">{col}</th>'
+        html += '</tr></thead><tbody>'
         for e in entries:
             trend = '✅ Uptrend' if e['>EMA200'] else '⚠ Below EMA200'
-            lines.append(f"\n   ▶ {e['Symbol']} ({e['Industry']})")
-            lines.append(f"     Price: ₹{e['Price']}  |  Stop: ₹{e['Stop']}  |  {trend}")
-            lines.append(f"     BB Lower: ₹{e['BB Lower']}  →  BB Upper: ₹{e['BB Upper']}")
+            html += f'''<tr>
+                <td style="{td_style()}"><b>{e['Symbol']}</b></td>
+                <td style="{td_style()}">{e['Industry']}</td>
+                <td style="{td_style('right')}">₹{e['Price']}</td>
+                <td style="{td_style('right')}">₹{e['Stop']}</td>
+                <td style="{td_style('right')}">₹{e['BB Lower']}</td>
+                <td style="{td_style('right')}">₹{e['BB Upper']}</td>
+                <td style="{td_style()}">{trend}</td>
+            </tr>'''
+        html += '</tbody></table>'
     elif regime == 'PAUSE':
-        lines.append(f"\n🔔 NEW ENTRIES: None — Market sideways or defensive, entries paused")
+        html += section_header('🔔 New Entries: None — Market sideways, entries paused')
     elif regime == 'DEFENSIVE':
-        lines.append(f"\n🔔 NEW ENTRIES: None — Market in downtrend, protecting positions only")
+        html += section_header('🔔 New Entries: None — Market in downtrend, protecting positions only')
     else:
-        lines.append(f"\n🔔 NEW ENTRIES: None today")
+        html += section_header('🔔 New Entries: None today')
 
-    lines.append(f"\n{'─'*50}")
+    # OPEN POSITIONS
     if holds:
         total_pnl = sum(r['PnL'] for r in holds)
-        lines.append(f"\n📋 OPEN POSITIONS ({len(holds)})  |  Total P&L: ₹{total_pnl:+.0f}")
-        lines.append(f"   {'Symbol':<12} {'Entry':>8} {'Price':>8} {'P&L%':>7} {'P&L₹':>8} {'Days':>5}")
-        lines.append(f"   {'-'*55}")
+        pnl_color = '#27ae60' if total_pnl >= 0 else '#e74c3c'
+        html += section_header(
+            f'📋 Open Positions ({len(holds)}) &nbsp;|&nbsp; '
+            f'Total P&L: <span style="color:{pnl_color}">₹{total_pnl:+.0f}</span>'
+        )
+        html += f'<table style="{table_style()}"><thead><tr>'
+        for col in ['', 'Symbol', 'Entry ₹', 'Price ₹', 'P&L %', 'P&L ₹', 'Days']:
+            html += f'<th style="{th_style()}">{col}</th>'
+        html += '</tr></thead><tbody>'
         for r in holds:
             icon3 = '🟢' if r['PnL'] >= 0 else '🔴'
-            lines.append(f"   {icon3} {r['Symbol']:<12} "
-                        f"₹{r['EntryPrice']:>7.2f} ₹{r['Price']:>7.2f} "
-                        f"{r['PnL%']:>+7.2f}% ₹{r['PnL']:>+8.0f} {r['DaysHeld']:>4}d")
+            html += f'''<tr>
+                <td style="{td_style()}">{icon3}</td>
+                <td style="{td_style()}"><b>{r['Symbol']}</b></td>
+                <td style="{td_style('right')}">₹{r['EntryPrice']:.2f}</td>
+                <td style="{td_style('right')}">₹{r['Price']:.2f}</td>
+                <td style="{td_style('right')}">{r['PnL%']:+.2f}%</td>
+                <td style="{td_style('right')}">₹{r['PnL']:+.0f}</td>
+                <td style="{td_style('right')}">{r['DaysHeld']}d</td>
+            </tr>'''
+        html += '</tbody></table>'
+    else:
+        html += section_header('📋 Open Positions: None')
 
-    lines.append(f"\n{'─'*50}")
-    lines.append(f"\nTrade log: https://github.com/{repo_name}/blob/master/data/bb_trade_log.csv")
-    lines.append(f"\n— NSE BB Trader (automated)")
+    # FOOTER
+    html += f'''
+    <p style="margin-top:24px;font-size:12px;color:#888;">
+        <a href="https://github.com/{repo_name}/blob/master/data/bb_trade_log.csv" style="color:#2c3e50;">
+            View trade log on GitHub
+        </a><br>
+        — NSE BB Trader (automated)
+    </p>
+    </div>
+    '''
 
-    body = '\n'.join(lines)
-    msg  = MIMEMultipart()
+    msg = MIMEMultipart()
     msg['From']    = sender
     msg['To']      = recipient
     msg['Subject'] = subject
-    msg.attach(MIMEText(body, 'plain'))
+    msg.attach(MIMEText(html, 'html'))
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
         server.login(sender, password)
