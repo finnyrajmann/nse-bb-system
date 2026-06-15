@@ -35,31 +35,30 @@ SLEEP         = 0.5
 # YAHOO FINANCE — direct API
 # ─────────────────────────────────────────────
 def fetch_price_data(symbol, period='3mo'):
-    """Fetch OHLCV data from Yahoo Finance API."""
     ticker = symbol.upper().strip()
     if not ticker.startswith("^"):
         ticker = ticker + ".NS"
-    url    = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
     
-    range_map = {'3mo': '3mo', '1y': '1y'}
+    range_map = {'3mo': '3mo', '6mo': '6mo', '1y': '1y'}
     params = {
         'range':    range_map.get(period, '3mo'),
         'interval': '1d',
         'events':   'history',
     }
     headers = {'User-Agent': 'Mozilla/5.0'}
-    
-    try:
-        r = requests.get(url, params=params, headers=headers, timeout=15)
-        data = r.json()
-        result = data['chart']['result'][0]
-        closes = result['indicators']['quote'][0]['close']
-        # Filter out None values
-        closes = [c for c in closes if c is not None]
-        return closes
-    except Exception as e:
-        return None
 
+    for host in ['query1', 'query2']:
+        try:
+            url = f"https://{host}.finance.yahoo.com/v8/finance/chart/{ticker}"
+            r = requests.get(url, params=params, headers=headers, timeout=15)
+            data = r.json()
+            closes = data['chart']['result'][0]['indicators']['quote'][0]['close']
+            closes = [c for c in closes if c is not None]
+            if closes:
+                return closes
+        except Exception:
+            continue
+    return None
 
 def calc_ema(values, period):
     """Calculate EMA."""
