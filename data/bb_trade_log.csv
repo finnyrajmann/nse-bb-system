@@ -1,6 +1,0 @@
-Symbol,EntryDate,EntryPrice,Quantity,Capital,ExitDate,ExitPrice,PnL,PnL%,DaysHeld,ExitReason,TrackType
-NMDC,2026-03-23,75.0,133,9975.0,2026-06-03,96.12,2808.96,28.16,72.0,Price at BB Upper (₹95.68),Paper
-PFC,2026-03-23,387.0,25,9675.0,2026-06-04,424.45,936.25,9.68,73,"Manual exit — missed BB Upper in Apr, exiting at current price",Paper
-DRREDDY,2026-03-24,1253.3,7,8773.1,2026-06-04,1267.5,99.4,1.13,72,"Manual exit — missed BB Upper ~1350 in Apr, exiting at current price",Paper
-TORNTPOWER,2026-03-24,1362.8,7,9539.6,2026-06-04,1440.0,540.4,5.66,72,"Manual exit — missed BB Upper ~1700 in Apr, exiting at current price",Paper
-NTPC,2026-04-06,358.8,27,9687.6,2026-06-04,366.4,205.2,2.12,59,"Manual exit — missed BB Upper ~408 in Apr, exiting at current price",Paper
