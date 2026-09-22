@@ -1,0 +1,1289 @@
+[33mcommit 5210cf0c45bce479485fcf42e6c741596a5c514f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 22 10:44:43 2026 +0530
+
+    fix gitignore
+
+[33mcommit b4cb1cb5d6e6750c16afbd5b3e661fc74f793182[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 22 10:42:37 2026 +0530
+
+    major changes add 200ema gate, stoploss high since entry and split tradelog to hit and miss and add parameter captures at entry
+
+[33mcommit 7d9c17d7332c4e3c4f1630d77dc910e682e28eb0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 22 08:48:32 2026 +0530
+
+    Auto-update — 2026-09-22
+
+[33mcommit efc1ede7d2034f1850f0d2be0aa9030b6bd0f7bb[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 22 08:48:31 2026 +0530
+
+    Auto-update — 2026-09-22
+
+[33mcommit d1f95c345137ba17b946eb6ed866afb53d73f8bd[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Sep 21 08:48:34 2026 +0530
+
+    Auto-update — 2026-09-21
+
+[33mcommit 0a0698907a454590752d4ddfdd291dc09211f7ec[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Sep 21 08:48:33 2026 +0530
+
+    Auto-update — 2026-09-21
+
+[33mcommit 687529b14078c5ef157e8db1f45c77846c532051[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Sep 18 08:48:35 2026 +0530
+
+    Auto-update — 2026-09-18
+
+[33mcommit 90e98624b91776ba077a5bceffb2bc0118e7a409[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Sep 18 08:48:34 2026 +0530
+
+    Auto-update — 2026-09-18
+
+[33mcommit b0b930766bb1f4b8b37e305ca1d381707793b899[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Sep 17 17:17:35 2026 +0530
+
+    change watchlist to 200ema uptrend
+
+[33mcommit f2c996000cea19d47aa5b3c8ad4ba622583cc4e8[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Sep 17 08:51:15 2026 +0530
+
+    Auto-update — 2026-09-17
+
+[33mcommit 67e4357422976caa76f9540dcaf9cff1305d8ea0[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Sep 17 08:51:14 2026 +0530
+
+    Auto-update — 2026-09-17
+
+[33mcommit 0babfefe9528461360fece8b003d9134b3d6b6d2[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Sep 16 08:51:18 2026 +0530
+
+    Auto-update — 2026-09-16
+
+[33mcommit b5b7f0ba93be5a6ecf21ed2761ef24635194b183[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Sep 16 08:51:17 2026 +0530
+
+    Auto-update — 2026-09-16
+
+[33mcommit 929c43912e3b1a10ac11f19c9244abd301c4211c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 15 08:51:07 2026 +0530
+
+    Auto-update — 2026-09-15
+
+[33mcommit 43297ed1d87f898f3a4efeb147252dd519131479[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 15 08:51:06 2026 +0530
+
+    Auto-update — 2026-09-15
+
+[33mcommit e2fd3c31b05308fd3b2bb92ece2bd18da4183054[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Sep 14 08:51:09 2026 +0530
+
+    Auto-update — 2026-09-14
+
+[33mcommit 46f21f2dfc8348b072cb1256fb8003bc9e81f704[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Sep 14 08:51:08 2026 +0530
+
+    Auto-update — 2026-09-14
+
+[33mcommit 54b79ca015ee66a9b6916a60202dc8471cfd1864[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Sep 11 08:51:13 2026 +0530
+
+    Auto-update — 2026-09-11
+
+[33mcommit 0c7bf3aab67612e34ff4874a5a2ab85995a5257b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Sep 11 08:51:12 2026 +0530
+
+    Auto-update — 2026-09-11
+
+[33mcommit addfe625ffb8f8ac1897a7284a3383476c641d39[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Sep 10 08:51:17 2026 +0530
+
+    Auto-update — 2026-09-10
+
+[33mcommit 10826b42f6aa9577c196dd4b9e1e8644503824b4[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Sep 10 08:51:16 2026 +0530
+
+    Auto-update — 2026-09-10
+
+[33mcommit 3b00dcbbcffac50e4fc207bbe1a34728124f4b2c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Sep 9 08:51:14 2026 +0530
+
+    Auto-update — 2026-09-09
+
+[33mcommit 4e5995f1a961c0e13099504441a58fb62e286f04[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Sep 9 08:51:13 2026 +0530
+
+    Auto-update — 2026-09-09
+
+[33mcommit 4f451cd0c3315694c44dff4c529c7b048b6a2f10[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 8 08:51:12 2026 +0530
+
+    Auto-update — 2026-09-08
+
+[33mcommit 7c634eff4078b2f7bd7a7b964da1fd20208b9501[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 8 08:51:11 2026 +0530
+
+    Auto-update — 2026-09-08
+
+[33mcommit 7d2e494d19f6cfb33fcbdf4a0b2a89e710214322[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Sep 7 08:51:10 2026 +0530
+
+    Auto-update — 2026-09-07
+
+[33mcommit 088bb154a3a754ae3d080003c29b7ff98400aa53[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Sep 7 08:51:09 2026 +0530
+
+    Auto-update — 2026-09-07
+
+[33mcommit b2e5b2186b72109afb56a7cfa80007bcd19d321b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Sep 4 08:51:11 2026 +0530
+
+    Auto-update — 2026-09-04
+
+[33mcommit ab5c96820a530f3d6d29d6c3993bad823209b210[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Sep 4 08:51:10 2026 +0530
+
+    Auto-update — 2026-09-04
+
+[33mcommit fa35d89934bc54c7b5e7fc53586e3037164585ca[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Sep 3 08:51:12 2026 +0530
+
+    Auto-update — 2026-09-03
+
+[33mcommit ebaf780654a770cde15be661d5d81438c4629499[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Sep 3 08:51:11 2026 +0530
+
+    Auto-update — 2026-09-03
+
+[33mcommit 208acd4f28b0e6acb5bad103b75cdae79497c50b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Sep 2 08:51:15 2026 +0530
+
+    Auto-update — 2026-09-02
+
+[33mcommit 6dd0600cdb79612caccd7fdb62ce581232841446[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Sep 2 08:51:14 2026 +0530
+
+    Auto-update — 2026-09-02
+
+[33mcommit 9b912e3efb8d2036172567dcd7c2d15687a8881f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 1 08:51:17 2026 +0530
+
+    Auto-update — 2026-09-01
+
+[33mcommit d05172674741d095713602512461578f5dffc8da[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Sep 1 08:51:16 2026 +0530
+
+    Auto-update — 2026-09-01
+
+[33mcommit 1bb278d62008380bbbfa53b40e2f4f6fac3f66f4[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 31 08:51:14 2026 +0530
+
+    Auto-update — 2026-08-31
+
+[33mcommit f9cfefeb8d9298faff6c24ac17e21268b31b3c18[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 31 08:51:13 2026 +0530
+
+    Auto-update — 2026-08-31
+
+[33mcommit 856428a9ca7e1ca4eedcd9156f49193ceacc6719[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 28 08:51:19 2026 +0530
+
+    Auto-update — 2026-08-28
+
+[33mcommit 7e3ac703cff23fca20f1d2171d606bc9ae8eeb35[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 28 08:51:18 2026 +0530
+
+    Auto-update — 2026-08-28
+
+[33mcommit 2a117fd6c833de25af6b400efa6b69a0cded0ddd[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 27 08:55:31 2026 +0530
+
+    Auto-update — 2026-08-27
+
+[33mcommit 58544f5ddc114834528af31349a5e0200e6f4946[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 27 08:55:30 2026 +0530
+
+    Auto-update — 2026-08-27
+
+[33mcommit 1c8d8e31fd8e4b7baae6732921ab82c6d53aea17[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 26 08:51:13 2026 +0530
+
+    Auto-update — 2026-08-26
+
+[33mcommit def7f2d8b52492a1a7b4b5d94f138b664695768c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 26 08:51:12 2026 +0530
+
+    Auto-update — 2026-08-26
+
+[33mcommit 6e9eeac16b8570dcf5d19077aeaff1190736deee[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 25 08:51:12 2026 +0530
+
+    Auto-update — 2026-08-25
+
+[33mcommit c79994fe9d98424f68086328344a9a1644965f3b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 25 08:51:11 2026 +0530
+
+    Auto-update — 2026-08-25
+
+[33mcommit 5f03e0f7a27ed55abfe24f8e128057c20e397daa[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 24 08:51:41 2026 +0530
+
+    Auto-update — 2026-08-24
+
+[33mcommit 5393b9cdba368e06c5d8d7c7450366a2db3c9c49[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 24 08:51:40 2026 +0530
+
+    Auto-update — 2026-08-24
+
+[33mcommit 44289bf196c20775db80f0cbb98a51d39b5d30d5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 21 08:51:19 2026 +0530
+
+    Auto-update — 2026-08-21
+
+[33mcommit 05e493095debd67f93dc9000bdf370b08d969753[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 21 08:51:18 2026 +0530
+
+    Auto-update — 2026-08-21
+
+[33mcommit c4e37ca4745107591fb796509fcee6293a7fdca8[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 20 08:51:19 2026 +0530
+
+    Auto-update — 2026-08-20
+
+[33mcommit a215222ea5cb83002b928c509c6327424f19e8ed[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 20 08:51:18 2026 +0530
+
+    Auto-update — 2026-08-20
+
+[33mcommit c986637b9c66afe8469d07121ea6cb8b476ee7ee[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 19 08:51:14 2026 +0530
+
+    Auto-update — 2026-08-19
+
+[33mcommit 6e0eccfb435294a7db3e50f51223ab4595c8da4f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 19 08:51:14 2026 +0530
+
+    Auto-update — 2026-08-19
+
+[33mcommit 25b0ec592aa2622f9294ae4baa39862545aa8b59[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 18 08:51:16 2026 +0530
+
+    Auto-update — 2026-08-18
+
+[33mcommit 47ad0ca23d09517f4aea51e64264069e59c7ceb1[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 18 08:51:16 2026 +0530
+
+    Auto-update — 2026-08-18
+
+[33mcommit 654b290638bcc80477422d8d4af86694db68c50f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 17 08:51:13 2026 +0530
+
+    Auto-update — 2026-08-17
+
+[33mcommit fe5a2a071e0757e8a0ed193109f432b55f4e42c5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 17 08:51:12 2026 +0530
+
+    Auto-update — 2026-08-17
+
+[33mcommit 4a9654809d9c03f42f0986c75d3fa0fc6d94c827[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 14 08:51:24 2026 +0530
+
+    Auto-update — 2026-08-14
+
+[33mcommit c3b314836db6b391d31aa7eb6810bfadcedc79e6[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 14 08:51:23 2026 +0530
+
+    Auto-update — 2026-08-14
+
+[33mcommit d0849944107b2534783e300f60b289d41c0232ca[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 13 08:51:14 2026 +0530
+
+    Auto-update — 2026-08-13
+
+[33mcommit c903208fb8fcb09252c25e155461583f0379cd79[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 13 08:51:13 2026 +0530
+
+    Auto-update — 2026-08-13
+
+[33mcommit 44365a5ec212b4a51428db4b5213dc12e4d8a43d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 12 08:51:12 2026 +0530
+
+    Auto-update — 2026-08-12
+
+[33mcommit d61f3243968f35bfa296534a5c30670b50ce3b72[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 12 08:51:11 2026 +0530
+
+    Auto-update — 2026-08-12
+
+[33mcommit 37a78cc3a3fa81e7eaf982702baedd42059e1aa3[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 11 08:51:15 2026 +0530
+
+    Auto-update — 2026-08-11
+
+[33mcommit 4c3c33cf9fa175881a089f4450097a05c698b584[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 11 08:51:14 2026 +0530
+
+    Auto-update — 2026-08-11
+
+[33mcommit 0397d30791361ea2738cba02763ba1ef5a5542c5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 10 08:51:16 2026 +0530
+
+    Auto-update — 2026-08-10
+
+[33mcommit 94c6d488c351012b71d52a96941118774e50239e[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 10 08:51:15 2026 +0530
+
+    Auto-update — 2026-08-10
+
+[33mcommit bb7573037d1655a1d164d58e464ce1300ad801d5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 7 08:51:16 2026 +0530
+
+    Auto-update — 2026-08-07
+
+[33mcommit 0e443fe120eb8c94170715e38c1222f12abd971d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Aug 7 08:51:15 2026 +0530
+
+    Auto-update — 2026-08-07
+
+[33mcommit 72dbd9d1e8aa8a1ae7e56ed32c392a9d1ec0668e[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 6 08:51:15 2026 +0530
+
+    Auto-update — 2026-08-06
+
+[33mcommit 6fe1877a5f60bfa7c2d5b013766df34de732e166[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Aug 6 08:51:14 2026 +0530
+
+    Auto-update — 2026-08-06
+
+[33mcommit 7208f5afd185421cdc24cca84cfd27101254e6b3[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 5 08:51:12 2026 +0530
+
+    Auto-update — 2026-08-05
+
+[33mcommit 4002913cd8155c20551c389f1d9d4adb6b885c30[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Aug 5 08:51:11 2026 +0530
+
+    Auto-update — 2026-08-05
+
+[33mcommit 8481b6577b29b41e5b345df2f47cbf614916f8f5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 4 08:51:22 2026 +0530
+
+    Auto-update — 2026-08-04
+
+[33mcommit 9e8913e456266f2389ed27058c47c550e214c13a[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Aug 4 08:51:21 2026 +0530
+
+    Auto-update — 2026-08-04
+
+[33mcommit 97de730097d9d70435ab14110a095831038f5f7c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 3 08:51:10 2026 +0530
+
+    Auto-update — 2026-08-03
+
+[33mcommit 828315640ee79872d6754f7b9b742b372b7439fc[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Aug 3 08:51:09 2026 +0530
+
+    Auto-update — 2026-08-03
+
+[33mcommit 2d157ae2d206a5282a7391aae55e6180fa9009f1[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 31 08:51:12 2026 +0530
+
+    Auto-update — 2026-07-31
+
+[33mcommit 7ccadc560af948d3c318268d73263d3980b08b83[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 31 08:51:11 2026 +0530
+
+    Auto-update — 2026-07-31
+
+[33mcommit f6aa8c9dc37d5a63ce3c70c2bb5766bdad615c69[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 30 08:51:16 2026 +0530
+
+    Auto-update — 2026-07-30
+
+[33mcommit ab74a71e28a55e66a551fddd7ff5bd579014f0df[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 30 08:51:15 2026 +0530
+
+    Auto-update — 2026-07-30
+
+[33mcommit f4da621f455b2a9f77c32becbce8e0509cc461ad[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 29 08:51:17 2026 +0530
+
+    Auto-update — 2026-07-29
+
+[33mcommit 279f825c203b3645cf59817505a56725b42ef4b9[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 29 08:51:16 2026 +0530
+
+    Auto-update — 2026-07-29
+
+[33mcommit 5ea613ccabfb3fc9243bc99c150c0959dc1e3219[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 28 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-28
+
+[33mcommit 145d5424213e3706b4c95e9f567ce1eb8ab3f545[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 28 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-28
+
+[33mcommit 908f14fb44313c0bc8952069c6c11d6865e63e47[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 27 08:51:09 2026 +0530
+
+    Auto-update — 2026-07-27
+
+[33mcommit 9003622494d8ae132664544f7ec4e39f3fd953c0[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 27 08:51:08 2026 +0530
+
+    Auto-update — 2026-07-27
+
+[33mcommit 2528870de01f312ea12cfbe9b3fc32ea2d781a9b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 24 08:51:13 2026 +0530
+
+    Auto-update — 2026-07-24
+
+[33mcommit dec901fb1fbf568291f204fc89023ae788fbf9e2[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 24 08:51:12 2026 +0530
+
+    Auto-update — 2026-07-24
+
+[33mcommit b056a35dace0cabee7ff30e9268757da347adc57[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 23 08:51:23 2026 +0530
+
+    Auto-update — 2026-07-23
+
+[33mcommit f190416e76e91df83e8bea928fcebcc833e985e1[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 23 08:51:22 2026 +0530
+
+    Auto-update — 2026-07-23
+
+[33mcommit 3b887588b84740ac94ddab18cd0f98881bdecc3a[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 22 08:51:13 2026 +0530
+
+    Auto-update — 2026-07-22
+
+[33mcommit e9a7db8ea74d1644ef13f96d3c9890407b229e05[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 22 08:51:12 2026 +0530
+
+    Auto-update — 2026-07-22
+
+[33mcommit c3a071133552d8391042f8a611cb2d89232fddac[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 21 08:51:09 2026 +0530
+
+    Auto-update — 2026-07-21
+
+[33mcommit 46112809fb872ce4b683f0879632642b0155f8a7[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 21 08:51:08 2026 +0530
+
+    Auto-update — 2026-07-21
+
+[33mcommit 0ed975286f091c6c35508aa64201d3339f916fac[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 20 08:51:09 2026 +0530
+
+    Auto-update — 2026-07-20
+
+[33mcommit ef66f0da9c4483f895e067e9c331b1e1bbb18134[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 20 08:51:08 2026 +0530
+
+    Auto-update — 2026-07-20
+
+[33mcommit b72c1337dcda3e8ce73e769aaf96a336ac03f27e[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 17 08:51:08 2026 +0530
+
+    Auto-update — 2026-07-17
+
+[33mcommit eff1934f89f9d412c011607d9e61d1f08eeecac9[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 17 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-17
+
+[33mcommit 12386d1380ca3609263497f6e73e8feccbd9c976[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 16 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-16
+
+[33mcommit 87411246b1e932604f29a9e3920b9733262911b4[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 16 08:51:06 2026 +0530
+
+    Auto-update — 2026-07-16
+
+[33mcommit a2514854759b4091ad40fcd8072f17b9b7587815[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 15 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-15
+
+[33mcommit 966f73b217b1301588225cc8e616279bca7360b4[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 15 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-15
+
+[33mcommit 05be78ff42a553917bbaaf543ec68d2f2b2de7fc[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 14 08:51:16 2026 +0530
+
+    Auto-update — 2026-07-14
+
+[33mcommit ea5f1883428914b1c1624fa5073a6b21779d7f5c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 14 08:51:15 2026 +0530
+
+    Auto-update — 2026-07-14
+
+[33mcommit c901ab2e82032e8a7d1d94da696a90f358fdc860[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 13 08:51:10 2026 +0530
+
+    Auto-update — 2026-07-13
+
+[33mcommit f9cf42bcfd0a676dc6b8c1bbcaa7c663efbff18e[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 13 08:51:09 2026 +0530
+
+    Auto-update — 2026-07-13
+
+[33mcommit f46e94e5f869146e07701ec479a096e09bdf9e71[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 10 08:51:11 2026 +0530
+
+    Auto-update — 2026-07-10
+
+[33mcommit 236f63f4238f201161d015c1e9e070c2aedfc8af[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 10 08:51:10 2026 +0530
+
+    Auto-update — 2026-07-10
+
+[33mcommit 80d06b050e2d2ac37ab5386d9d8aacc758fcb878[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 9 08:51:11 2026 +0530
+
+    Auto-update — 2026-07-09
+
+[33mcommit 5dce791fa5b8aebde1f840ced00252c48b03ae74[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 9 08:51:10 2026 +0530
+
+    Auto-update — 2026-07-09
+
+[33mcommit d2b3861cc618eee5f58227f3ddf47cdedcf4d2b1[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 8 08:51:11 2026 +0530
+
+    Auto-update — 2026-07-08
+
+[33mcommit c70e605c3bce5e07f49d641db471db2f3bf5a854[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 8 08:51:10 2026 +0530
+
+    Auto-update — 2026-07-08
+
+[33mcommit 4da2901f29a90b206377ae50dbcbf0e3f93a9e2b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 7 08:51:13 2026 +0530
+
+    Auto-update — 2026-07-07
+
+[33mcommit eed05f1b9472e3ec03130ce6e294ed8b39cd8aa6[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jul 7 08:51:12 2026 +0530
+
+    Auto-update — 2026-07-07
+
+[33mcommit ca0bd438897f412d236976636aa41576ba560b9c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 6 08:51:16 2026 +0530
+
+    Auto-update — 2026-07-06
+
+[33mcommit 33f758fcaba872eed6ba4ebe49ad40ebfdd4ce5a[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jul 6 08:51:15 2026 +0530
+
+    Auto-update — 2026-07-06
+
+[33mcommit 26c065b71372871cce48337d0f5e60ccab9b6609[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 3 08:51:24 2026 +0530
+
+    Auto-update — 2026-07-03
+
+[33mcommit 338c0bb0e8f449f0fd0c0862fbefd3d24a93e4f8[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jul 3 08:51:23 2026 +0530
+
+    Auto-update — 2026-07-03
+
+[33mcommit ee411d7c396f9f561024e79b7db4a98ff42aecbc[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 2 08:51:08 2026 +0530
+
+    Auto-update — 2026-07-02
+
+[33mcommit e7d1d007cf99e120c49d8f3df4e0e9e451926c2b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jul 2 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-02
+
+[33mcommit 371b5f56b18867516be07922e1a6d8fc64b752aa[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 1 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-01
+
+[33mcommit 01ce084099dcd5cf03cf30e9ee7399e7ab93546b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jul 1 08:51:07 2026 +0530
+
+    Auto-update — 2026-07-01
+
+[33mcommit 75cc00322935596ea26d34af3bcdb487f7ac5110[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 30 08:52:31 2026 +0530
+
+    Auto-update — 2026-06-30
+
+[33mcommit b12c97a2a1f8917d7ce5ea71b4e466c7816c56b5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 30 08:52:30 2026 +0530
+
+    Auto-update — 2026-06-30
+
+[33mcommit ddcd914d2f53188248bf20d469cc0c8579b269b9[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 29 08:52:28 2026 +0530
+
+    Auto-update — 2026-06-29
+
+[33mcommit d8836672b72dc2e7c52ced5868fc3cb7195d1460[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 29 08:52:27 2026 +0530
+
+    Auto-update — 2026-06-29
+
+[33mcommit 03d05f049b051e65a715ad91319a0c54d8d1fd44[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 26 10:19:44 2026 +0530
+
+    Auto-update — 2026-06-26
+
+[33mcommit 4be4737be05e2d789cb0beaa2ac5d385d8c55774[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 26 10:19:43 2026 +0530
+
+    Auto-update — 2026-06-26
+
+[33mcommit 0bf407d89df8e44defbab15469be6b254948c70f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 25 11:40:23 2026 +0530
+
+    Auto-update data — 2026-06-25 11:40 IST
+
+[33mcommit 76529fff80aa5df64dc3aee32267c2cccc31960f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 25 11:40:21 2026 +0530
+
+    Auto-update data — 2026-06-25 11:40 IST
+
+[33mcommit 3f53e6a3b24ac2fcda8a0e8602b7fcfecefc8306[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 25 11:22:55 2026 +0530
+
+    readd tradelog deleted by mistake
+
+[33mcommit aab47132623288af7ba6c2289cd92eca8ba5489d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 24 16:20:06 2026 +0530
+
+    update watchlist: healthcare excluded, remove previous_short
+
+[33mcommit b61639d6eaa3bede45a24aa05bb7fc7fc5ab9ff0[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 24 08:50:25 2026 +0530
+
+    Auto-update — 2026-06-24
+
+[33mcommit 69d50111103d305f4070ea25bca470dd36fa053a[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 24 08:50:25 2026 +0530
+
+    Auto-update — 2026-06-24
+
+[33mcommit a11e8f044cde242b59c0191062d3f536ef10b494[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 23 08:50:21 2026 +0530
+
+    Auto-update — 2026-06-23
+
+[33mcommit eca20d39c838c4e433f5ea3e17580bdb9d0988f2[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 23 08:50:21 2026 +0530
+
+    Auto-update — 2026-06-23
+
+[33mcommit 2b31770f3297e6dbbc4913e4cb478d7fd02625e1[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 22 08:50:24 2026 +0530
+
+    Auto-update — 2026-06-22
+
+[33mcommit 7537bbffbfaea69033056e5306583f2bd3803757[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 22 08:50:23 2026 +0530
+
+    Auto-update — 2026-06-22
+
+[33mcommit d40e436bb7d5f33373b2dd663047bf3ee424aaf4[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 19 14:44:28 2026 +0530
+
+    Refactor: replace Nifty regime with per-stock EMA50 slope filter
+
+[33mcommit 0a82ccd52f0b10d0c3e5c5522908177894a8b15f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 19 08:45:26 2026 +0530
+
+    Auto-update — 2026-06-19
+
+[33mcommit 6a4f862b69aad0db6b8b45595ef541c53ea45078[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 19 08:45:26 2026 +0530
+
+    Auto-update — 2026-06-19
+
+[33mcommit c110d5b2f281005347a4b60bdef5fd6e28345a2f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 18 08:45:27 2026 +0530
+
+    Auto-update — 2026-06-18
+
+[33mcommit 122b13c972bec869c1096c7a01806a291ddd675e[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 18 08:45:26 2026 +0530
+
+    Auto-update — 2026-06-18
+
+[33mcommit 3c7ced04ef6ee8f24e25ebda15aec8bd28a690c9[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 17 08:45:26 2026 +0530
+
+    Auto-update — 2026-06-17
+
+[33mcommit 4222a35c64458daefe75da229de63062e0bee541[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 17 08:45:25 2026 +0530
+
+    Auto-update — 2026-06-17
+
+[33mcommit 5ea52fae6ce564c429d783100a9df6725dbb8ebc[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 16 08:45:26 2026 +0530
+
+    Auto-update — 2026-06-16
+
+[33mcommit b409a5189688ea5e26fdfd8138d9b2e905a129aa[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 16 08:45:25 2026 +0530
+
+    Auto-update — 2026-06-16
+
+[33mcommit ad4f0808e5a8a8b6896014287c7ca9c4b8ccd5c5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:31:27 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit 2ebd5894f245302cdb2f57ab3825c589d716a991[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:31:26 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit d68d70d5cd4ded4a7a766f048962ce982a55933a[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:29:56 2026 +0530
+
+    update fix for yf fetch
+
+[33mcommit cf3ff85ffc5cbd183f82c00493a291eee37fdff5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:22:26 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit 3d179646c3e953daaf9913ac88178221ab4a152f[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:22:25 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit e7bfbe3bde1aecdf903ad7c1694a27fc2f36c4da[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:22:08 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit 26b0ea83520bb91ecbfb2cb37f3eeaafca7d4eb8[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:22:07 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit 80788f5a55f76be407e2b2cb3838a6820dade549[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:19:44 2026 +0530
+
+    update mail format to html
+
+[33mcommit 7b2ea658cf56b34a832d7ceabc6b4641f2411118[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 15:01:14 2026 +0530
+
+    update watchlist to nifty500
+
+[33mcommit c0f1764ddd3787b338d84715fe724ce9b0189254[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 08:45:34 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit d77d2c62c5b253834c637afac08ad65fb1de8c6d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 15 08:45:33 2026 +0530
+
+    Auto-update — 2026-06-15
+
+[33mcommit 1fafe849b494f85b9d5da75f08cd03efb1fd9a78[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 12 08:45:34 2026 +0530
+
+    Auto-update — 2026-06-12
+
+[33mcommit 09a8bb439caae22da9a6f472a91affaee9b9e9f1[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 12 08:45:33 2026 +0530
+
+    Auto-update — 2026-06-12
+
+[33mcommit e9a6a27ec07dcb0a382779b4ce9cb7cd612d2ee2[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 11 08:45:34 2026 +0530
+
+    Auto-update — 2026-06-11
+
+[33mcommit 08638cd2711f878814f54e7da3343a828af39967[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 11 08:45:33 2026 +0530
+
+    Auto-update — 2026-06-11
+
+[33mcommit e35c9054c00dd746dcf4acca69aebfee29463a27[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 10 08:45:34 2026 +0530
+
+    Auto-update — 2026-06-10
+
+[33mcommit 8811e601e0f2fe27844c06f64a9fe2c1f4f65470[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 10 08:45:33 2026 +0530
+
+    Auto-update — 2026-06-10
+
+[33mcommit 664379e1e4144b0b8d224612663f2fb738e4d0ef[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 9 08:45:34 2026 +0530
+
+    Auto-update — 2026-06-09
+
+[33mcommit 4bc3b643b50c2bb5379ee9879e5034d95ac26f77[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Tue Jun 9 08:45:33 2026 +0530
+
+    Auto-update — 2026-06-09
+
+[33mcommit 9f02bfbb6ea030924de8e5dd5aa01a451893cb37[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 8 08:45:34 2026 +0530
+
+    Auto-update — 2026-06-08
+
+[33mcommit 42c77b389f4ad9de9b07d680189a9f8d152d804c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Mon Jun 8 08:45:33 2026 +0530
+
+    Auto-update — 2026-06-08
+
+[33mcommit 727d1548c8bed63c8698ebf859910e6679e4dddc[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 12:23:39 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 5bb289489646511243f6082fe71360e58b91cc41[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 12:23:38 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 6adfc42b95e0f6f06ef28f5bf82634e6c73806ba[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 12:04:49 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 872de24ea1c2a1da4ab4bd73836bea2db1a6a283[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 12:04:48 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 1eed73bdc86b0cc0457917a553d8a21afb6978f6[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 12:02:19 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit ab8a114f987dd96b0c8e4e93caa4848da460ea1c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 12:02:18 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 6a0cf10ad0fe3cad32bb20bc9c3b367d6604888c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:57:55 2026 +0530
+
+    more fixes.
+
+[33mcommit 76f4624f5a4ca505058f5fee6c5e6ec7820c0635[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:53:06 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit ead2d3eb414e4115daaee01b251a9ca8b77f906d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:53:05 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 42a37b1c090cb456a540a94d9e6b72baf4bccb86[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:52:10 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 70d4fb50076a05bf30e16bf3563cd855f0abcae6[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:52:09 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 67f61b678633382b4c0be14601434de31e0a5bdf[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:45:22 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit a327058ef8e08cb5f0535a7423e14bea3d48ba17[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:45:20 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit d68c4494f3ecbaf2fef6837a97d6de3c5273262c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:42:21 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 2f7a5ab112bb70796af41da909f380c0531dc8c8[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:42:20 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 15a6ad50f15ce234965fa25e43df93c562976d96[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:41:45 2026 +0530
+
+    update for errors fixing
+
+[33mcommit d85719c598850b1ba4b82533eaa1fe1727017a9c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 11:35:28 2026 +0530
+
+    Improve regime filter — slope based trend detection, DEFENSIVE exit, clean entry gate
+
+[33mcommit bad31cabdccdeea7d42a78289b19fa62f994312d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 10:01:26 2026 +0530
+
+    Add project.yml.example as setup reference
+
+[33mcommit ded32e8f0827bd533009c7410f41772fc523e49b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 09:31:25 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 1a04ad9b6d26f6f12d06659a767f3d6fc15648cd[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Fri Jun 5 09:31:25 2026 +0530
+
+    Auto-update — 2026-06-05
+
+[33mcommit 2e24702fa3f58309803aa22ec86f3d8de774d185[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 16:26:01 2026 +0530
+
+    Close all 4 positions manually — missed exits logged, positions cleared
+
+[33mcommit 8a5e4a6b43f772c4e751272fc6f2635554a7a346[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:59:38 2026 +0530
+
+    Soften regime filter — CAUTIOUS mode scans EMA200 stocks only
+
+[33mcommit 9c47ec534fc8d638362d457ea1846c0f36971c74[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:56:01 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit 03914fde65ac191851de38968598d6b979a0f8cf[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:56:00 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit f6d3c41e6025863299031be3dad4424014bdc746[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:47:03 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit 55914073ab805273fa694850dc96eec8a4122080[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:47:02 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit 0494d794f8c473879cfbcfe82ea5ee585995847d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:39:28 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit 9c784873e7308dde9acc446b2618b5572f88957d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:39:27 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit 3a5e0afe06c414feb3e237daa56c3a4bc04faa87[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 15:26:25 2026 +0530
+
+    Update watchlist — fresh fundamental + technical filter Jun 2026
+
+[33mcommit 772358dcec934a295e9dcf754abbe2d31761704e[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 14:57:04 2026 +0530
+
+    Add deployment and operations guide
+
+[33mcommit 7b1c69fad248a440e9d22869e4ed23139ad6153d[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 14:56:05 2026 +0530
+
+    Add deployment and operations guide
+
+[33mcommit 3e931f83737d1c29d5f74b6c3d9d8adf68c4e0b5[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 14:55:23 2026 +0530
+
+    Add deployment and operations guide
+
+[33mcommit 6b6dced1d20feb9d2ae9cc0eb87e2d0068ff82bf[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 14:54:13 2026 +0530
+
+    Add deployment and operations guide
+
+[33mcommit 6943e51e955be92b424f920be1897ad437cf3455[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 14:49:03 2026 +0530
+
+    Add deployment and operations guide
+
+[33mcommit 03492a29d94c53ae1e98c07d6f7fbcb59ff864fc[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 14:34:35 2026 +0530
+
+    Remove build artifacts and pycache
+
+[33mcommit d4c5260081ef9faaf9a2b3551b81bc033b90a1d2[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 14:29:57 2026 +0530
+
+    Move unused scripts to _retired
+
+[33mcommit 28c603a6b56b6ad92ffbcb98ba55581427f1af58[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 13:53:43 2026 +0530
+
+    Fix Nifty symbol encoding in fetch_price_data
+
+[33mcommit 3736d8325b73b21f6d261cac8fcf3554bacf836b[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 13:51:38 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit 582283c7b32a9e24d8580f36d478d5f0741aee6c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 13:51:38 2026 +0530
+
+    Auto-update — 2026-06-04
+
+[33mcommit 356730d6b1f22de29cc29e408c505edac48bf30a[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 13:48:30 2026 +0530
+
+    Ignore DO build artifacts
+
+[33mcommit 3da99f2b3742180b558775aac64169c0d130940a[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Thu Jun 4 13:46:34 2026 +0530
+
+    Add DO Functions — fully automated pipeline
+
+[33mcommit 7ac8d9420dd7252385b92b146e5c6d1cbfb3a2a8[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 3 19:54:21 2026 +0530
+
+    Auto-update — 2026-06-03
+
+[33mcommit 05d12625aff2a918b6a75d96407a02ab24397894[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 3 19:54:19 2026 +0530
+
+    Auto-update — 2026-06-03
+
+[33mcommit 7c28e4fafcee4f3488979694fdd0b56bc62be170[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 3 15:23:03 2026 +0530
+
+    Exclude project.yml from git — contains credentials
+
+[33mcommit 32e2e46416aa1bb7eb19154beca5824e7ac556cc[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 3 14:43:17 2026 +0530
+
+    Add main orchestrator and updated dailyrun.sh
+
+[33mcommit 249b8247198a95376f2afcf10aad65188114610c[m
+Author: finnyrajmann <finnyrajmann@gmail.com>
+Date:   Wed Jun 3 14:36:53 2026 +0530
+
+    Initial commit — BB swing trading system
