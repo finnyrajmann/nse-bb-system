@@ -2,33 +2,16 @@
 __pycache__/
 *.pyc
 *.pyo
-.myenv/
-myenv/
-*.egg-info/
 
-# Environment & credentials
+# Credentials
 .env
 *.env
-config.py
-secrets.py
 
-# Virtual environment
-venv/
-env/
+# DO deployment
+functions/project.yml
+functions/.deployed
+functions/packages/**/__deployer__.zip
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Daily output files (auto-generated, not needed in repo)
-bb_buy_today.csv
-bb_buy_today.txt
-buy_today.csv
-buy_today.txt
-
-# Logs
-*.log
-do_functions/project.yml
-do_functions/.deployed
-do_functions/packages/**/__deployer__.zip
-functions/__pycache__/
