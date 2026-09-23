@@ -1,1 +1,6 @@
 Symbol,EntryDate,EntryPrice,Quantity,Capital,ExitDate,ExitPrice,PnL,PnL%,DaysHeld,ExitReason,TrackType
+OLAELEC,2026-07-23,36.67,272,9974.24,2026-09-23,37.78,301.92,3.03,62,"Trailing stop hit (38.34, high since entry 42.599998474121094)",Paper
+BANDHANBNK,2026-07-23,173.5,57,9889.5,2026-09-23,184.7,638.4,6.46,62,Price at/above BB Upper (182.7),Paper
+USHAMART,2026-08-24,481.3,20,9626.0,2026-09-23,531.3,1000.0,10.39,30,Price at/above BB Upper (528.27),Paper
+INDHOTEL,2026-08-31,706.4,14,9889.6,2026-09-23,745.0,540.4,5.46,23,Price at/above BB Upper (740.71),Paper
+ETERNAL,2026-09-16,315.25,31,9772.75,2026-09-23,342.0,829.25,8.49,7,Price at/above BB Upper (337.03),Paper
