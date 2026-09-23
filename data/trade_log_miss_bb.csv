@@ -1,1 +1,14 @@
 Symbol,EntryDate,EntryPrice,Quantity,Capital,ExitDate,ExitPrice,PnL,PnL%,DaysHeld,ExitReason,TrackType
+CHAMBLFERT,2026-07-10,451.0,22,9922.0,2026-09-23,418.5,-715.0,-7.21,75,"Trailing stop hit (419.53, high since entry 466.1499938964844)",Paper
+IGIL,2026-07-10,337.75,29,9794.75,2026-09-23,326.95,-313.2,-3.2,75,"Trailing stop hit (334.26, high since entry 371.3999938964844)",Paper
+CHOLAHLDNG,2026-07-24,1527.1,6,9162.6,2026-09-23,1459.6,-405.0,-4.42,61,"Trailing stop hit (1492.2, high since entry 1658.0)",Paper
+GRAVITA,2026-07-29,1638.5,6,9831.0,2026-09-23,1580.0,-351.0,-3.57,56,"Trailing stop hit (1672.65, high since entry 1858.5)",Paper
+J&KBANK,2026-07-30,154.63,64,9896.32,2026-09-23,145.94,-556.16,-5.62,55,"Trailing stop hit (147.87, high since entry 164.3000030517578)",Paper
+VTL,2026-08-03,585.8,17,9958.6,2026-09-23,554.15,-538.05,-5.4,51,"Trailing stop hit (574.06, high since entry 637.8499755859375)",Paper
+CCL,2026-08-03,1155.3,8,9242.4,2026-09-23,1050.0,-842.4,-9.11,51,"Trailing stop hit (1077.39, high since entry 1197.0999755859375)",Paper
+APTUS,2026-08-03,261.2,38,9925.6,2026-09-23,237.27,-909.34,-9.16,51,"Trailing stop hit (241.2, high since entry 268.0)",Paper
+MANAPPURAM,2026-08-20,340.0,29,9860.0,2026-09-23,319.3,-600.3,-6.09,34,"Trailing stop hit (335.29, high since entry 372.54998779296875)",Paper
+UBL,2026-08-20,1355.5,7,9488.5,2026-09-23,1215.2,-982.1,-10.35,34,"Fixed stop (1219.95) AND trailing stop (1248.12, high since entry 1386.800048828125) both hit",Paper
+ARE&M,2026-09-02,879.9,11,9678.9,2026-09-23,793.2,-953.7,-9.85,21,"Trailing stop hit (794.07, high since entry 882.2999877929688)",Paper
+ABREL,2026-09-02,1355.5,7,9488.5,2026-09-23,1237.1,-828.8,-8.73,21,"Trailing stop hit (1260.81, high since entry 1400.9000244140625)",Paper
+RRKABEL,2026-09-03,2630.4,3,7891.2,2026-09-23,2411.7,-656.1,-8.31,20,"Trailing stop hit (2417.31, high since entry 2685.89990234375)",Paper
