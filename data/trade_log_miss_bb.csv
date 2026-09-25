@@ -1,1 +1,3 @@
 Symbol,EntryDate,EntryPrice,Quantity,Capital,ExitDate,ExitPrice,PnL,PnL%,DaysHeld,ExitReason,TrackType
+CHOLAFIN,2026-07-24,1728.0,5,8640.0,2026-09-25,1681.7,-231.5,-2.68,63,"Trailing stop hit (1757.25, high since entry 1952.5)",Paper
+LTF,2026-09-16,296.8,33,9794.4,2026-09-25,282.0,-488.4,-4.99,9,"Trailing stop hit (282.87, high since entry 314.29998779296875)",Paper
