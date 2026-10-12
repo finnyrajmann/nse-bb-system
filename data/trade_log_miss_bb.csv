@@ -1,1 +1,2 @@
 Symbol,EntryDate,EntryPrice,Quantity,Capital,ExitDate,ExitPrice,PnL,PnL%,DaysHeld,ExitReason,TrackType
+PFOCUS,2026-10-06,285.65,35,9997.75,2026-10-12,261.1,-859.25,-8.59,6,"Trailing stop hit (267.39, high since entry 297.1000061035156)",Paper
