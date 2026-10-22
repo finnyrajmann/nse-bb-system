@@ -1,3 +1,7 @@
 Symbol,EntryDate,EntryPrice,Quantity,Capital,ExitDate,ExitPrice,PnL,PnL%,DaysHeld,ExitReason,TrackType
 PFOCUS,2026-10-06,285.65,35,9997.75,2026-10-12,261.1,-859.25,-8.59,6,"Trailing stop hit (267.39, high since entry 297.1000061035156)",Paper
 HONASA,2026-09-30,441.65,22,9716.3,2026-10-21,441.4,-5.5,-0.06,21,"Trailing stop hit (443.7, high since entry 493.0)",Paper
+IDEA,2026-10-01,12.95,772,9997.4,2026-10-22,11.64,-1011.32,-10.12,21,"Fixed stop (11.65) AND trailing stop (12.06, high since entry 13.399999618530273) both hit",Paper
+APARINDS,2026-10-16,16914.0,1,16914.0,2026-10-22,15122.0,-1792.0,-10.59,6,"Fixed stop (15222.6) AND trailing stop (15464.7, high since entry 17183.0) both hit",Paper
+FINCABLES,2026-10-19,1367.7,7,9573.9,2026-10-22,1202.4,-1157.1,-12.09,3,"Fixed stop (1230.93) AND trailing stop (1224.72, high since entry 1360.800048828125) both hit",Paper
+HSCL,2026-10-20,605.85,16,9693.6,2026-10-22,539.25,-1065.6,-10.99,2,"Fixed stop (545.26) AND trailing stop (547.83, high since entry 608.7000122070312) both hit",Paper
