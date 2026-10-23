@@ -5,3 +5,7 @@ IDEA,2026-10-01,12.95,772,9997.4,2026-10-22,11.64,-1011.32,-10.12,21,"Fixed stop
 APARINDS,2026-10-16,16914.0,1,16914.0,2026-10-22,15122.0,-1792.0,-10.59,6,"Fixed stop (15222.6) AND trailing stop (15464.7, high since entry 17183.0) both hit",Paper
 FINCABLES,2026-10-19,1367.7,7,9573.9,2026-10-22,1202.4,-1157.1,-12.09,3,"Fixed stop (1230.93) AND trailing stop (1224.72, high since entry 1360.800048828125) both hit",Paper
 HSCL,2026-10-20,605.85,16,9693.6,2026-10-22,539.25,-1065.6,-10.99,2,"Fixed stop (545.26) AND trailing stop (547.83, high since entry 608.7000122070312) both hit",Paper
+OFSS,2026-09-23,10989.0,1,10989.0,2026-10-23,9843.0,-1146.0,-10.43,30,"Fixed stop (9890.1) AND trailing stop (9964.8, high since entry 11072.0) both hit",Paper
+NAM-INDIA,2026-09-29,1093.9,9,9845.1,2026-10-23,976.0,-1061.1,-10.78,24,"Fixed stop (984.51) AND trailing stop (987.93, high since entry 1097.699951171875) both hit",Paper
+CEMPRO,2026-10-02,1178.9,8,9431.2,2026-10-23,1132.4,-372.0,-3.94,21,"Trailing stop hit (1141.92, high since entry 1268.800048828125)",Paper
+SIEMENS,2026-10-12,3595.0,2,7190.0,2026-10-23,3381.2,-427.6,-5.95,11,"Trailing stop hit (3402.0, high since entry 3780.0)",Paper
