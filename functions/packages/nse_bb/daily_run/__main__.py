@@ -529,7 +529,7 @@ def send_email(exits, entries, holds, warnings, alltime_pnl, alltime_count,
                 <td style="{td_style('right')}">Rs.{w['EMA200']:.2f}</td>
                 <td style="{td_style('right')}">{w['PnL%']:+.2f}%</td>
             </tr>'''
-    recipients = [r.strip() for r in os.environ.get('GMAIL_RECIPIENT', '').split(',') if r.strip()]
+        html += '</tbody></table>'
 
     # CUMULATIVE TRADE LOG P&L
     at_color = '#27ae60' if alltime_pnl >= 0 else '#e74c3c'
