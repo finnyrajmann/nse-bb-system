@@ -9,3 +9,16 @@ OFSS,2026-09-23,10989.0,1,10989.0,2026-10-23,9843.0,-1146.0,-10.43,30,"Fixed sto
 NAM-INDIA,2026-09-29,1093.9,9,9845.1,2026-10-23,976.0,-1061.1,-10.78,24,"Fixed stop (984.51) AND trailing stop (987.93, high since entry 1097.699951171875) both hit",Paper
 CEMPRO,2026-10-02,1178.9,8,9431.2,2026-10-23,1132.4,-372.0,-3.94,21,"Trailing stop hit (1141.92, high since entry 1268.800048828125)",Paper
 SIEMENS,2026-10-12,3595.0,2,7190.0,2026-10-23,3381.2,-427.6,-5.95,11,"Trailing stop hit (3402.0, high since entry 3780.0)",Paper
+ADANIPOWER,2026-09-29,196.14,50,9807.0,2026-10-26,182.04,-705.0,-7.19,27,"Trailing stop hit (184.89, high since entry 205.42999267578125)",Paper
+IDFCFIRSTB,2026-09-29,80.55,124,9988.2,2026-10-26,72.3,-1023.0,-10.24,27,"Fixed stop (72.5) AND trailing stop (74.07, high since entry 82.30000305175781) both hit",Paper
+ATHERENERG,2026-09-30,1407.0,7,9849.0,2026-10-26,1380.0,-189.0,-1.92,26,"Trailing stop hit (1395.72, high since entry 1550.800048828125)",Paper
+ABB,2026-09-30,6660.5,1,6660.5,2026-10-26,6140.0,-520.5,-7.81,26,"Trailing stop hit (6426.45, high since entry 7140.5)",Paper
+J&KBANK,2026-09-30,138.52,72,9973.44,2026-10-26,113.09,-1830.96,-18.36,26,"Fixed stop (124.67) AND trailing stop (129.11, high since entry 143.4600067138672) both hit",Paper
+ZYDUSWELL,2026-09-30,506.1,19,9615.9,2026-10-26,463.35,-812.25,-8.45,26,"Trailing stop hit (468.0, high since entry 520.0)",Paper
+ELGIEQUIP,2026-10-09,579.0,17,9843.0,2026-10-26,512.85,-1124.55,-11.42,17,"Fixed stop (521.1) AND trailing stop (531.0, high since entry 590.0) both hit",Paper
+RBLBANK,2026-10-14,388.05,25,9701.25,2026-10-26,345.65,-1060.0,-10.93,12,"Fixed stop (349.25) AND trailing stop (350.59, high since entry 389.54998779296875) both hit",Paper
+GRAPHITE,2026-10-16,767.2,13,9973.6,2026-10-26,689.05,-1015.95,-10.19,10,"Fixed stop (690.48) AND trailing stop (699.75, high since entry 777.5) both hit",Paper
+POWERINDIA,2026-10-16,28770.0,1,28770.0,2026-10-26,26300.0,-2470.0,-8.59,10,"Trailing stop hit (26401.5, high since entry 29335.0)",Paper
+SYRMA,2026-10-19,1604.6,6,9627.6,2026-10-26,1433.1,-1029.0,-10.69,7,"Fixed stop (1444.14) AND trailing stop (1452.6, high since entry 1614.0) both hit",Paper
+KIRLOSENG,2026-10-19,2025.6,4,8102.4,2026-10-26,1784.7,-963.6,-11.89,7,"Fixed stop (1823.04) AND trailing stop (1817.1, high since entry 2019.0) both hit",Paper
+ENGINERSIN,2026-10-20,269.85,37,9984.45,2026-10-26,242.5,-1011.95,-10.14,6,"Fixed stop (242.87) AND trailing stop (244.12, high since entry 271.25) both hit",Paper
