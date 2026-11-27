@@ -41,3 +41,4 @@ FINCABLES,2026-10-22,1202.4,8,9619.2,2026-11-19,1186.0,-131.2,-1.36,28,"Trailing
 BALRAMCHIN,2026-10-28,625.35,15,9380.25,2026-11-23,618.6,-101.25,-1.08,26,"Trailing stop hit (622.26, high since entry 691.4000244140625)",Paper
 CGPOWER,2026-10-16,818.0,12,9816.0,2026-11-26,778.9,-469.2,-4.78,41,"Trailing stop hit (778.95, high since entry 865.5)",Paper
 OFSS,2026-10-23,9843.0,1,9843.0,2026-11-26,9275.0,-568.0,-5.77,34,"Trailing stop hit (9322.2, high since entry 10358.0)",Paper
+LLOYDSME,2026-11-18,1748.3,5,8741.5,2026-11-27,1542.2,-1030.5,-11.79,9,"Fixed stop (1573.47) AND trailing stop (1583.1, high since entry 1759.0) both hit",Paper
